@@ -74,6 +74,7 @@ console.log('random' in ellie);  //false
 console.log(ellie.random); //undifined
 
 //6.for .. in vs for ... of
+//for in 은 객체순환 for of 는 배열순환
 //for (key in obj)
 for (key in ellie){
     console.log(key);
